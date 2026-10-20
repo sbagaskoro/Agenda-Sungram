@@ -1,0 +1,8 @@
+{
+  "name": "Agenda & Disposisi Sungram DISHUB",
+  "description": "Aplikasi manajemen surat masuk, lembar disposisi digital, dan agenda kegiatan Subbagian Penyusunan Program (Sungram) Dinas Perhubungan.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

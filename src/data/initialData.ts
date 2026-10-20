@@ -1,0 +1,121 @@
+import { Employee, AgendaItem } from '../types';
+
+export const DISPOSITION_HEAD: Employee = {
+  id: 'emp-head',
+  name: 'Yuniar Vidianto, S.T., M.T.',
+  role: 'Kepala Sub Bagian Penyusunan Program dan Anggaran (Pendisposisi)',
+  department: 'Subbag Penyusunan Program dan Anggaran',
+  nip: '197906152005011008',
+  avatarBg: 'bg-blue-700',
+};
+
+export const INITIAL_EMPLOYEES: Employee[] = [
+  DISPOSITION_HEAD,
+  {
+    id: 'emp-dimas',
+    name: 'Dimas Agung Dermawan, S.Si, M.Si',
+    role: 'Statistisi Ahli Muda',
+    department: 'Subbag Penyusunan Program dan Anggaran',
+    nip: '199107212014031001',
+    avatarBg: 'bg-violet-600',
+  },
+  {
+    id: 'emp-agnis',
+    name: 'Agnis Febiaswari, S.T.',
+    role: 'Perencana Ahli Pertama',
+    department: 'Subbag Penyusunan Program dan Anggaran',
+    nip: '199008042014032001',
+    avatarBg: 'bg-amber-600',
+  },
+  {
+    id: 'emp-atika',
+    name: "Atika Qurotu A'yun, S.Stat",
+    role: 'Statistisi Ahli Pertama',
+    department: 'Subbag Penyusunan Program dan Anggaran',
+    nip: '199602112019032021',
+    avatarBg: 'bg-emerald-600',
+  },
+  {
+    id: 'emp-tyas',
+    name: 'Tyas Basuki Priambudi, S.T.',
+    role: 'Pranata Komputer Ahli Pertama',
+    department: 'Subbag Penyusunan Program dan Anggaran',
+    nip: '199704012020121008',
+    avatarBg: 'bg-teal-600',
+  },
+  {
+    id: 'emp-saktio',
+    name: 'Saktio Bagaskoro, S.I.P.',
+    role: 'Perencana Ahli Pertama',
+    department: 'Subbag Penyusunan Program dan Anggaran',
+    nip: '200002222025041010',
+    avatarBg: 'bg-blue-600',
+  },
+  {
+    id: 'emp-sekar',
+    name: 'RR. Sekar Kalaksita, S.Si',
+    role: 'Statistisi Ahli Pertama',
+    department: 'Subbag Penyusunan Program dan Anggaran',
+    nip: '199408132023212032',
+    avatarBg: 'bg-purple-600',
+  },
+  {
+    id: 'emp-synta',
+    name: 'Synta Triasheatleyanti Ananta, S.Sos, M.M.',
+    role: 'Penelaah Teknis Kebijakan',
+    department: 'Subbag Penyusunan Program dan Anggaran',
+    nip: '198308062010012029',
+    avatarBg: 'bg-indigo-600',
+  },
+  {
+    id: 'emp-junied',
+    name: 'Junied Agus Purnomo, S.H.',
+    role: 'Penelaah Teknis Kebijakan',
+    department: 'Subbag Penyusunan Program dan Anggaran',
+    nip: '197408292009011002',
+    avatarBg: 'bg-cyan-600',
+  },
+  {
+    id: 'emp-anang',
+    name: 'M. Anang Fitrianto, S.T.',
+    role: 'Pengolah Data dan Informasi',
+    department: 'Subbag Penyusunan Program dan Anggaran',
+    nip: '199203032015031000',
+    avatarBg: 'bg-rose-600',
+  },
+  {
+    id: 'emp-raihan',
+    name: 'Raihan Adib Habibi, A.Md.Ak',
+    role: 'Pengolah Data dan Informasi',
+    department: 'Subbag Penyusunan Program dan Anggaran',
+    nip: '200003262022021001',
+    avatarBg: 'bg-sky-600',
+  },
+  {
+    id: 'emp-rienna',
+    name: 'Rienna Pratiwi Artyanti, S.E.',
+    role: 'Penata Layanan Operasional',
+    department: 'Subbag Penyusunan Program dan Anggaran',
+    nip: '198709102025212019',
+    avatarBg: 'bg-rose-700',
+  },
+  {
+    id: 'emp-donny',
+    name: 'Donny Manu, S.T.',
+    role: 'Penata Layanan Operasional',
+    department: 'Subbag Penyusunan Program dan Anggaran',
+    nip: '198210122025211139',
+    avatarBg: 'bg-emerald-700',
+  },
+  {
+    id: 'emp-berhas',
+    name: 'Berhas Ricardo Panjaitan, SAB',
+    role: 'Penata Layanan Operasional',
+    department: 'Subbag Penyusunan Program dan Anggaran',
+    nip: '199004022025211144',
+    avatarBg: 'bg-amber-700',
+  },
+];
+
+// Clean workspace: Empty initial agendas ready for real incoming mail & events
+export const INITIAL_AGENDAS: AgendaItem[] = [];
